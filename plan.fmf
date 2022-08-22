@@ -1,3 +1,4 @@
+summary: Run all javapackages-tools tests
 discover:
   how: fmf
   url: https://github.com/mizdebsk/javapackages-tools-tests
