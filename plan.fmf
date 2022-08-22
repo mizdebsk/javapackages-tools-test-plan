@@ -1,0 +1,11 @@
+discover:
+  how: fmf
+  url: https://github.com/mizdebsk/javapackages-tools-tests
+prepare:
+  how: install
+  exclude:
+    - maven-local-openjdk8
+    - maven-local-openjdk11
+    - maven-local-openjdk17
+execute:
+  how: tmt
